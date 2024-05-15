@@ -1,6 +1,15 @@
 <template>
-    <div>
-        <h1>CONTACT</h1>
-        <AppAlert> This is an auto-imported component </AppAlert>
+    <div class="">
+        <NuxtLayout :name="siteStore.getContactSkinLayout"></NuxtLayout>
     </div>
 </template>
+
+<script>
+import { useSiteStore } from '../stores/siteStore'
+export default {
+    setup() {
+        const siteStore = useSiteStore()
+        return { siteStore }
+    },
+}
+</script>

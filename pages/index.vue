@@ -11,5 +11,6 @@ export default {
         const siteStore = useSiteStore()
         return { siteStore }
     },
+    created() {},
 }
 </script>

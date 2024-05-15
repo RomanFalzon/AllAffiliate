@@ -9,3 +9,17 @@
         </nav>
     </header>
 </template>
+
+<style lang="scss" scoped>
+ul {
+    display: flex;
+    list-style: none;
+    li {
+        padding: 5px 10px;
+        margin-left: 5px;
+        a {
+            text-decoration: none;
+        }
+    }
+}
+</style>
