@@ -1,16 +1,15 @@
 <template>
     <div class="">
-        <NuxtLayout :name="siteStore.getHomeSkinLayout"></NuxtLayout>
+        <NuxtLayout :name="getHomeSkinLayout"></NuxtLayout>
     </div>
 </template>
 
 <script>
 import { useSiteStore } from '../stores/siteStore'
+import { mapState } from 'pinia'
 export default {
-    setup() {
-        const siteStore = useSiteStore()
-        return { siteStore }
+    computed: {
+        ...mapState(useSiteStore, ['getHomeSkinLayout']),
     },
-    created() {},
 }
 </script>

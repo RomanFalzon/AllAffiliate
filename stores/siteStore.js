@@ -3,7 +3,7 @@ import { defineStore } from 'pinia'
 export const useSiteStore = defineStore('siteStore', {
     state: () => ({
         //Default mobile
-        device: 'mobile',
+        isMobile: true,
 
         // For new layouts, create x-page-newLayout. Then in the layouts add x-page-newLayout-mobile/x-page-newLayout-desktop
         homeSkinLayout: 'pages-home-default',
@@ -16,17 +16,17 @@ export const useSiteStore = defineStore('siteStore', {
     getters: {
         // Pages layout getters based on device
         getHomeSkinLayout(state) {
-            return state.device === 'mobile'
+            return state.isMobile
                 ? state.homeSkinLayout + '-mobile'
                 : state.homeSkinLayout + '-desktop'
         },
         getAboutSkinLayout(state) {
-            return state.device === 'mobile'
+            return state.isMobile
                 ? state.aboutSkinLayout + '-mobile'
                 : state.aboutSkinLayout + '-desktop'
         },
         getContactSkinLayout(state) {
-            return state.device === 'mobile'
+            return state.isMobile
                 ? state.contactSkinLayout + '-mobile'
                 : state.contactSkinLayout + '-desktop'
         },
