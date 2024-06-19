@@ -5,11 +5,11 @@
 </template>
 
 <script>
-import { useSiteStore } from '../stores/siteStore'
+import { useSiteStore } from '../stores/siteStore';
 export default {
     setup() {
-        const siteStore = useSiteStore()
-        return { siteStore }
+        const siteStore = useSiteStore();
+        return { siteStore };
     },
-}
+};
 </script>

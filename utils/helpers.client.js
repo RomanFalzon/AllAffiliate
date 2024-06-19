@@ -2,8 +2,8 @@
 
 const isDesktopDevice = () => {
     if (process.client) {
-        return window.innerWidth > 720 ? 'desktop' : 'mobile'
+        return window.innerWidth > 720 ? 'desktop' : 'mobile';
     }
-}
+};
 
-export { isDesktopDevice }
+export { isDesktopDevice };

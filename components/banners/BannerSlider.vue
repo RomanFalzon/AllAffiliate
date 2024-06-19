@@ -1,30 +1,22 @@
 <template>
-    <swiper
-        :modules="modules"
-        :slides-per-view="1.5"
-        :space-between="50"
-        navigation
-        @swiper="onSwiper"
-        @slideChange="onSlideChange">
-        <swiper-slide>Slide 1</swiper-slide>
-        <swiper-slide>Slide 2</swiper-slide>
-        <swiper-slide>Slide 3</swiper-slide>
-        <swiper-slide>Slide 3</swiper-slide>
-        <swiper-slide>Slide 3</swiper-slide>
+    <swiper :slides-per-view="1.5" :space-between="50" @swiper="onSwiper">
+        <swiper-slide v-for="name in 5" :key="name" class="slide">
+            Slide {{ name }}
+        </swiper-slide>
     </swiper>
 </template>
 <script>
 // import Swiper core and required modules
-import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules'
+import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
 
 // Import Swiper Vue.js components
-import { Swiper, SwiperSlide } from 'swiper/vue'
+import { Swiper, SwiperSlide } from 'swiper/vue';
 
 // Import Swiper styles
-import 'swiper/css'
-import 'swiper/css/navigation'
-import 'swiper/css/pagination'
-import 'swiper/css/scrollbar'
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/scrollbar';
 
 // Import Swiper styles
 export default {
@@ -34,16 +26,23 @@ export default {
     },
     setup() {
         const onSwiper = (swiper) => {
-            console.log(swiper)
-        }
+            console.log(swiper);
+        };
         const onSlideChange = () => {
-            console.log('slide change')
-        }
+            console.log('slide change');
+        };
         return {
             onSwiper,
             onSlideChange,
             modules: [Navigation, Pagination, Scrollbar, A11y],
-        }
+        };
     },
-}
+};
 </script>
+
+<style lang="scss">
+.slide {
+    height: 300px;
+    background-color: red;
+}
+</style>

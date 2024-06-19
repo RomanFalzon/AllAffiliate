@@ -1,4 +1,4 @@
-import { defineStore } from 'pinia'
+import { defineStore } from 'pinia';
 
 export const useSiteStore = defineStore('siteStore', {
     state: () => ({
@@ -18,22 +18,22 @@ export const useSiteStore = defineStore('siteStore', {
         getHomeSkinLayout(state) {
             return state.isMobile
                 ? state.homeSkinLayout + '-mobile'
-                : state.homeSkinLayout + '-desktop'
+                : state.homeSkinLayout + '-desktop';
         },
         getAboutSkinLayout(state) {
             return state.isMobile
                 ? state.aboutSkinLayout + '-mobile'
-                : state.aboutSkinLayout + '-desktop'
+                : state.aboutSkinLayout + '-desktop';
         },
         getContactSkinLayout(state) {
             return state.isMobile
                 ? state.contactSkinLayout + '-mobile'
-                : state.contactSkinLayout + '-desktop'
+                : state.contactSkinLayout + '-desktop';
         },
     },
     actions: {
         setDevice(device) {
-            this.device = device
+            this.device = device;
         },
     },
-})
+});

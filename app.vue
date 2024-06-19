@@ -5,6 +5,6 @@
 </template>
 
 <script setup>
-const { isMobile } = useDevice()
-useSiteStore().setDevice(isMobile)
+const { isMobile } = useDevice();
+useSiteStore().setDevice(isMobile);
 </script>
