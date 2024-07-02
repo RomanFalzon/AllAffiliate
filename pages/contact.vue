@@ -1,15 +1,5 @@
 <template>
     <div class="">
-        <NuxtLayout :name="siteStore.getContactSkinLayout"></NuxtLayout>
+        <NuxtLayout :name="'pages-contact-default'"></NuxtLayout>
     </div>
 </template>
-
-<script>
-import { useSiteStore } from '../stores/siteStore';
-export default {
-    setup() {
-        const siteStore = useSiteStore();
-        return { siteStore };
-    },
-};
-</script>

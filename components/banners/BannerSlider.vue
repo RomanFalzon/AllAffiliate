@@ -5,6 +5,7 @@
         </swiper-slide>
     </swiper>
 </template>
+
 <script>
 // import Swiper core and required modules
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
@@ -37,6 +38,7 @@ export default {
             modules: [Navigation, Pagination, Scrollbar, A11y],
         };
     },
+    created() {},
 };
 </script>
 

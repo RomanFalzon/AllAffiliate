@@ -1,0 +1,101 @@
+[
+    {
+        "id": "1",
+        "title": "New Tech Innovations in 2024",
+        "content": "2024 has brought a plethora of new technological innovations. From AI advancements to breakthroughs in renewable energy, this year is shaping up to be transformative.",
+        "tags": ["technology", "innovation", "2024"],
+        "type": "new",
+        "imgUrl": "https://example.com/images/tech_innovations_2024.jpg",
+        "slug": "new-tech-innovations-2024"
+    },
+    {
+        "id": "2",
+        "title": "Climate Change: What Can We Do?",
+        "content": "As climate change continues to impact our planet, there are numerous actions individuals and communities can take to mitigate its effects.",
+        "tags": ["climate change", "environment", "sustainability"],
+        "type": "trending",
+        "imgUrl": "https://example.com/images/climate_change_actions.jpg",
+        "slug": "climate-change-what-can-we-do"
+    },
+    {
+        "id": "3",
+        "title": "Top Travel Destinations for 2024",
+        "content": "Explore the top travel destinations for 2024, from exotic beaches to bustling cities, and discover the best places to visit this year.",
+        "tags": ["travel", "destinations", "2024"],
+        "type": "hot",
+        "imgUrl": "https://example.com/images/top_travel_destinations_2024.jpg",
+        "slug": "top-travel-destinations-2024"
+    },
+    {
+        "id": "4",
+        "title": "The Rise of Electric Vehicles",
+        "content": "Electric vehicles are gaining popularity as more people become aware of their environmental benefits. Here's a look at the latest trends and models.",
+        "tags": ["electric vehicles", "transportation", "technology"],
+        "type": "new",
+        "imgUrl": "https://example.com/images/rise_of_electric_vehicles.jpg",
+        "slug": "rise-of-electric-vehicles"
+    },
+    {
+        "id": "5",
+        "title": "Healthy Eating: Tips for a Balanced Diet",
+        "content": "Maintaining a balanced diet is essential for overall health. Discover tips and recipes to help you eat healthier every day.",
+        "tags": ["health", "nutrition", "lifestyle"],
+        "type": "trending",
+        "imgUrl": "https://example.com/images/healthy_eating_tips.jpg",
+        "slug": "healthy-eating-tips"
+    },
+    {
+        "id": "6",
+        "title": "The Future of Remote Work",
+        "content": "Remote work is here to stay. Explore the benefits, challenges, and best practices for working from home.",
+        "tags": ["remote work", "workplace", "future"],
+        "type": "hot",
+        "imgUrl": "https://example.com/images/future_of_remote_work.jpg",
+        "slug": "future-of-remote-work"
+    },
+    {
+        "id": "7",
+        "title": "Innovative Startups to Watch in 2024",
+        "content": "2024 is a promising year for startups. Here are some of the most innovative companies to keep an eye on.",
+        "tags": ["startups", "innovation", "business"],
+        "type": "new",
+        "imgUrl": "https://example.com/images/innovative_startups_2024.jpg",
+        "slug": "innovative-startups-2024"
+    },
+    {
+        "id": "8",
+        "title": "Mental Health Awareness: Breaking the Stigma",
+        "content": "Mental health is an important aspect of overall well-being. Learn how to break the stigma and support those in need.",
+        "tags": ["mental health", "awareness", "well-being"],
+        "type": "trending",
+        "imgUrl": "https://example.com/images/mental_health_awareness.jpg",
+        "slug": "mental-health-awareness"
+    },
+    {
+        "id": "9",
+        "title": "Advancements in Medical Technology",
+        "content": "The medical field is rapidly evolving with new technologies. Discover the latest advancements that are transforming healthcare.",
+        "tags": ["medical technology", "healthcare", "innovation"],
+        "type": "hot",
+        "imgUrl": "https://example.com/images/advancements_medical_technology.jpg",
+        "slug": "advancements-medical-technology"
+    },
+    {
+        "id": "10",
+        "title": "Sustainable Fashion Trends in 2024",
+        "content": "Sustainable fashion is becoming more mainstream. Find out the latest trends and how you can support eco-friendly brands.",
+        "tags": ["fashion", "sustainability", "2024"],
+        "type": "new",
+        "imgUrl": "https://example.com/images/sustainable_fashion_2024.jpg",
+        "slug": "sustainable-fashion-trends-2024"
+    },
+    {
+        "id": "11",
+        "title": "Sustainable Fashion Trends in 2024",
+        "content": "Sustainable fashion is becoming more mainstream. Find out the latest trends and how you can support eco-friendly brands.",
+        "tags": ["fashion", "sustainability", "2024"],
+        "type": "new",
+        "imgUrl": "https://example.com/images/sustainable_fashion_2024.jpg",
+        "slug": "sustainable-fashion-trends-2024"
+    }
+]

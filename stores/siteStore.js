@@ -13,24 +13,7 @@ export const useSiteStore = defineStore('siteStore', {
         burgerMenuLocation: 'top-right',
         menuType: 'sidebar-left',
     }),
-    getters: {
-        // Pages layout getters based on device
-        getHomeSkinLayout(state) {
-            return state.isMobile
-                ? state.homeSkinLayout + '-mobile'
-                : state.homeSkinLayout + '-desktop';
-        },
-        getAboutSkinLayout(state) {
-            return state.isMobile
-                ? state.aboutSkinLayout + '-mobile'
-                : state.aboutSkinLayout + '-desktop';
-        },
-        getContactSkinLayout(state) {
-            return state.isMobile
-                ? state.contactSkinLayout + '-mobile'
-                : state.contactSkinLayout + '-desktop';
-        },
-    },
+    getters: {},
     actions: {
         setDevice(device) {
             this.device = device;

@@ -1,15 +1,5 @@
 <template>
     <div class="">
-        <NuxtLayout :name="getHomeSkinLayout"></NuxtLayout>
+        <NuxtLayout :name="'pages-home-default'"></NuxtLayout>
     </div>
 </template>
-
-<script>
-import { useSiteStore } from '../stores/siteStore';
-import { mapState } from 'pinia';
-export default {
-    computed: {
-        ...mapState(useSiteStore, ['getHomeSkinLayout']),
-    },
-};
-</script>
