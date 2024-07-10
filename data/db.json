@@ -5,7 +5,7 @@
         "content": "2024 has brought a plethora of new technological innovations. From AI advancements to breakthroughs in renewable energy, this year is shaping up to be transformative.",
         "tags": ["technology", "innovation", "2024"],
         "type": "new",
-        "imgUrl": "https://example.com/images/tech_innovations_2024.jpg",
+        "imgUrl": "https://dummyimage.com/600x400/000/fff",
         "slug": "new-tech-innovations-2024"
     },
     {
@@ -14,7 +14,7 @@
         "content": "As climate change continues to impact our planet, there are numerous actions individuals and communities can take to mitigate its effects.",
         "tags": ["climate change", "environment", "sustainability"],
         "type": "trending",
-        "imgUrl": "https://example.com/images/climate_change_actions.jpg",
+        "imgUrl": "https://dummyimage.com/600x400/000/fff",
         "slug": "climate-change-what-can-we-do"
     },
     {
@@ -23,7 +23,7 @@
         "content": "Explore the top travel destinations for 2024, from exotic beaches to bustling cities, and discover the best places to visit this year.",
         "tags": ["travel", "destinations", "2024"],
         "type": "hot",
-        "imgUrl": "https://example.com/images/top_travel_destinations_2024.jpg",
+        "imgUrl": "https://dummyimage.com/600x400/000/fff",
         "slug": "top-travel-destinations-2024"
     },
     {
